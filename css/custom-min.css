@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 480px;
+  background: url(../images/hero-img.png) center center;
+  background-size: cover; }
+
+.logo {
+  height: 145px;
+  width: 145px;
+  float: left;
+  background-color: #3B322D;
+  margin-left: 90px;
+  padding-top: 12px; }
+
+.logo h2 {
+  /* DominikHuber: */
+  font-family: AvenirNext-Bold;
+  margin-left: 17px;
+  font-size: 45px;
+  color: #E9EEF4;
+  text-align: center;
+  display: inline-block; }
+
+.logo h2 span {
+  font-size: 24px; }
+
+nav {
+  float: right; }
+
+nav a {
+  display: inline-block;
+  margin-right: 35px;
+  margin-top: 35px;
+  /* Home Projekte Über M: */
+  font-family: AvenirNext-Regular;
+  text-decoration: none;
+  font-size: 17px;
+  color: #302825;
+  letter-spacing: 2px; }
+
+nav a:hover {
+  text-decoration: underline; }
+
+.content {
+  height: 590px;
+  background-color: #0E0A09;
+  margin-top: -2px; }
+
+.button {
+  display: none; }
+
+@media (max-width: 590px) {
+  .logo {
+    margin-left: 5px; }
+  nav a {
+    /*float: none;
+    font-size: 12px;
+    margin-right: 5px;
+    display: block;*/
+    display: none; }
+  /* Mobile navigation */
+  .button {
+    display: block;
+    height: 50px;
+    width: 70px;
+    background-color: transparent;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block; }
+  .row {
+    height: 10px;
+    width: 50%;
+    background-color: black;
+    margin: 5px auto; }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 90px;
+    min-height: 100px;
+    right: -5px;
+    border: 2px solid grey;
+    opacity: 0.7;
+    z-index: 1;
+    color: white; }
+  .dropdown-content a {
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+    margin: 10px auto; }
+  .button:hover .dropdown-content {
+    display: block; } }
+
+@media (max-width: 950px) {
+  nav a {
+    font-size: 12px;
+    margin-right: 10px;
+    letter-spacing: normal; } }
