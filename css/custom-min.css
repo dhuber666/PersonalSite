@@ -79,6 +79,7 @@ nav a:hover {
     width: 50%;
     background-color: black;
     margin: 5px auto; }
+  /* Dropdown Menu for mobile devices */
   .dropdown-content {
     display: none;
     position: absolute;
