@@ -61,10 +61,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/me.png": {
+		"ft": 32768,
+		"iS": 679113,
+		"oA": 0,
+		"oAP": "\/images\/me.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -98,7 +115,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 515337132,
-	"displayValue": "PersonalPortfolio",
+	"displayValue": "PersonalSite",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-facepalm"
 	},
